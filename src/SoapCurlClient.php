@@ -227,8 +227,3 @@ public function call(string $method, array $params, string $soapAction): ?array
         return $xml;
     }
 }
-
-/**
- * Custom exception for SoapCurlClient errors.
- */
-class SoapCurlClientException extends Exception {}
